@@ -5479,4 +5479,3 @@ module.exports = __webpack_require__(/*! /home/mauricio/workspace/study/mlassako
 /***/ })
 
 },[[1,"runtime"]]]);
-//# sourceMappingURL=polyfills.js.map
