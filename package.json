@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng b --c production",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/router": "^6.0.3",
     "angular2-highcharts": "^0.5.5",
     "core-js": "^2.5.4",
+    "gh-pages": "^1.2.0",
     "highcharts": "^6.1.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"

@@ -1,27 +1,50 @@
-# PlacesIHaveBeen
+<h1 align="center">Places I Have Been</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+>This repo serves an Angular 6 application. This application implements highcharts map library to list all places I visited in my life.
 
-## Development server
+[Demo](https://mlassakoski.github.io/places-i-have-been/) 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Setup and install](#setup-and-install) | [Usage](#usage) 
 
-## Code scaffolding
+## Setup and install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Your can fork this repo clone or simply download the `.zip` bundle with the contents inside.
 
-## Build
+#### Environment installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To run this project you'll need development dependencies of which run on Node.js. You can skip this step if you already have Node.js installed. 
 
-## Running unit tests
+1. Download and install [Node.js](https://nodejs.org/en/download/) 
+2.  Download and Install [Angular Cli](https://cli.angular.io/) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Project installation
 
-## Running end-to-end tests
+ Clone the project from github
+```
+  https://github.com/mlassakoski/places-i-have-been.git
+```
+Open a terminal and use `cd` to enter into directory where you clone the project.
+```
+cd <places-i-have-been>
+yarn install
+OR
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Usage 
 
-## Further help
+Inside project directory execute:
+```
+yarn start 
+OR
+npm start
+```
+Go to `localhost:4200` to access the application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Credits
+
+* Mauricio Lassakoski
+
+## License
+
+* MIT

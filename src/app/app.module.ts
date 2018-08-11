@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ChartModule } from 'angular2-highcharts';
 import { HighchartsStatic } from 'angular2-highcharts/dist/HighchartsService';
-import * as highcharts from 'highcharts';
 
 import { AppComponent } from './app.component';
 
@@ -18,7 +17,7 @@ export function highchartsFactory() {
   imports: [
     BrowserModule,
     ChartModule.forRoot(
-      require('highcharts/highmaps')
+      require('highcharts/highmaps'),
     )
   ],
   providers: [
