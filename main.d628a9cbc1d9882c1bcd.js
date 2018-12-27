@@ -66711,6 +66711,9 @@ var AppComponent = /** @class */ (function () {
             ['hr', 300],
             ['il', 300],
             ['ma', 300],
+            ['be', 300],
+            ['nl', 300],
+            ['pl', 300]
         ];
     }
     AppComponent.prototype.ngOnInit = function () {
@@ -66902,7 +66905,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/mauricio/workspace/study/mlassakoski/places-i-have-been/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/mauricio/workspace/mlassakoski/places-i-have-been/src/main.ts */"./src/main.ts");
 
 
 /***/ })
