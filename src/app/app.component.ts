@@ -23,6 +23,9 @@ export class AppComponent implements OnInit {
       ['hr', 300],
       ['il', 300],
       ['ma', 300],
+      ['be', 300],
+      ['nl', 300],
+      ['pl', 300]
     ];
   }
   ngOnInit(): void {
